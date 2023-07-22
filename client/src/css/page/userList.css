@@ -1,0 +1,64 @@
+.userList {
+    flex: 4;
+  }
+  
+  .userListUser {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userListImg {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .userListEdit{
+      border: none;
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: #683aa4;
+      color: white;
+      cursor: pointer;
+      margin-right: 20px;
+  }
+  
+  .userListDelete{
+      color: #fd3f83;
+      cursor: pointer;
+  }
+
+  .userListTitle{
+      margin-right: 5px;
+  }
+
+  .userListTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+  }
+  
+  .userListAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: #683aa4;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+
+  .userListNotEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #fd3f83;
+    pointer-events: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
